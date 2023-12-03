@@ -174,3 +174,35 @@ section#contact {
   margin: 0 auto;
 }
 
+/* Contact Form Styling */
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #00a69c; /* Turquoise Blue */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #008579; /* Darker Turquoise Blue on hover */
+}
