@@ -109,3 +109,29 @@ section#hero p {
   margin-top: 20px;
 }
 
+/* Style for the CTA Button */
+.cta-button {
+  background-color: #00a69c; /* Turquoise Blue */
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.cta-button:hover {
+  background-color: #008579; /* Darker Turquoise Blue on hover */
+}
+
+section#about {
+  text-align: center;
+  padding: 50px;
+  margin: 20px; /* Space around the section */
+  max-width: 800px; /* Maximum width for the content */
+  margin: 0 auto; /* Center the section */
+}
