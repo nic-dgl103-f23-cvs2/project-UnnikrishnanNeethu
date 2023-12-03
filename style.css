@@ -195,7 +195,7 @@ section#contact {
 }
 
 .contact-form button {
-  background-color: #00a69c; /* Turquoise Blue */
+  background-color: #00a69c;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
@@ -205,4 +205,19 @@ section#contact {
 
 .contact-form button:hover {
   background-color: #008579; /* Darker Turquoise Blue on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+@media (min-width: 1024px) {
+  /* Adjustments for Desktop screens */
+  section#about {
+    max-width: 800px;
+}
 }
