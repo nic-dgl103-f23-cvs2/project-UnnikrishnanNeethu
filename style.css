@@ -126,20 +126,22 @@ section#hero p {
   display: flex;
   flex-direction: column;
   padding: 30px; 
- background-color: aliceblue;
+  background-color: aliceblue;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin:30px 0px;
 }
 .smImages {
-   width: 80px;
+   width: 10px;
    margin:auto ;
 }
 .device1{
-  padding: 20px;
+  padding: 40px;
+  background-color:rgb(245, 245, 245);
+  margin-top: 25px;
   margin-bottom: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 /* Style for the CTA Button */
@@ -192,6 +194,72 @@ section#services p {
   margin-bottom: 20px;
 }
 
+/* ************************* */
+.services{
+  padding: 40px;
+}
+.servicesWrapper a {
+   text-decoration: none;
+}
+.service {
+  margin-left: 170px;
+ margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+   padding: 30px; 
+  background-color: rgb(74,163,156);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin:30px 0px;
+}
+.smImages {
+   width: 80px;
+   margin:auto ;
+}
+.device1{
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prices{
+  padding:30px;
+}
+
+.products{
+ margin-left: 170px;
+ margin-top: 50px;
+ display: flex;
+  flex-direction: column;
+  padding: 50px; 
+ background-color: rgb(247, 247, 247); 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin:30px 0px;
+ text-align:left;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color:#4AA39C;
+  }
+/* ********************** */
+/* ********************** */
 /* Contact Us Section */
 section#contact {
   text-align: center;
@@ -276,5 +344,28 @@ footer {
   justify-content: space-between;
   gap:50px;
 
+}
+.services_Wrapper{
+  width:1170px;
+  margin:auto;
+  padding-top: 80px;
+}
+
+.devices{
+  display: flex;
+
+  justify-content: space-between;
+  gap:50px;
+}
+
+.device1{
+  width: 50%;
+}
+.serviceImg{
+  text-align: center;
+}
+.prices{
+width:1170px;
+margin:auto;
 }
 }
