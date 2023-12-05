@@ -563,9 +563,8 @@ footer p{
 }
 
 
-/* ********************** */
-/* ********************** */
 /* Contact Us Section */
+
 section#contact {
   text-align: center;
   padding: 50px;
@@ -574,10 +573,40 @@ section#contact {
   margin: 0 auto;
 }
 
+.contact h2{
+
+margin-top: 25px;
+font-size: 3.0rem;
+margin-bottom: 8px;
+color: #050404;
+text-align: center;
+margin-bottom:20px;
+
+
+
+}
+
+
+.contact-details p{
+
+margin-top: 25px;
+font-size: 2.0rem;
+line-height: 35px;
+
+
+}
+
+.contact-details a{
+color: #464646;
+
+}
+
 /* Contact Form Styling */
 .contact-form {
+  padding-top: 40px;
   max-width: 400px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .contact-form label {
@@ -595,12 +624,38 @@ section#contact {
 }
 
 .contact-form button {
-  background-color: #00a69c;
+  background-color: rgb(44, 44, 44);
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+}
+
+.cta h3{
+
+  margin-top: 25px;
+  font-size: 3.0rem;
+  margin-bottom: 8px;
+  color: #4AA39C;
+  text-align: center;
+  margin-bottom:20px;
+
+}
+
+.cta p{
+
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+
+}
+
+.cta-button {
+
+  background-color: rgb(74,163,156);
+
 }
 
 .contact-form button:hover {
