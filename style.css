@@ -61,27 +61,49 @@ header {
 
   .about {
     flex: 30%;
-    
-    background-color: rgb(74,163,156); 
-  border-radius: 8px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 60px;
+   padding-top: 60px; 
+  background-color: rgb(74,163,156); 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin:30px 0px;
   }
 
   .about p{
+    margin-top: 50px;
     font-size:1.8rem;
+    color: #ffffff; 
     
 
   }
 
+  .about a{
+    margin-top: 10px;
+    font-size:1.8rem;
+    color: #1d6962;
+    
+  }
+
+.about img{
+
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+
+
   nav a {
     text-decoration: none;
-    color: #333;
-    margin: 0 15px;
+    color: #9bd9d4;
+    margin:0 15px ;
     display: block;
   }
 
+
   nav {
+    
     margin: 0 auto;
     font-size: 2.0rem;
   }
@@ -91,17 +113,22 @@ header {
     margin: 0;
     padding: 0;
     display: none;
+    
+    
 }
 
   nav ul li {
     position: relative;
     margin: 0 20px 0 200px;
     display: inline-block;
+    
   }
 
   nav ul li a:hover {
     opacity: 0.5;
   }
+
+
 
   .show-items {
     display: flex;
@@ -113,6 +140,14 @@ header {
 /* Hero Part */
 section#hero {
   text-align: center;
+  
+}
+
+section#hero h1{
+  font-size: 50px;
+  margin-top: 40px;
+  color: #4AA39C;
+
 }
 
 section#hero video {
@@ -123,9 +158,13 @@ section#hero video {
 section#hero p {
   /*style for paragraph*/
   font-size: 18px;
-  line-height: 1.6;
-  color: #666;
-  margin-top: 20px;
+  line-height: 1.5;
+  color: #2c2b2b;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .features{
